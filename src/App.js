@@ -1,13 +1,16 @@
-import RoutesApp from './pages/RoutesApp';
-import React from 'react';
+import RoutesApp from "./pages/RoutesApp";
+import Footer from "./components/layout/Footer";
 
 function App() {
+
   return (
-    <div className="App">
+    <div className="App" >
+        <RoutesApp />
+        <Footer />
       
-        <RoutesApp/>
-    </div>
-  )
+
+    </div >
+  );
 }
 
 export default App;

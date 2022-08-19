@@ -2,13 +2,13 @@ import {BrowserRouter ,Route, Routes} from 'react-router-dom'
 import Home from './Home'
 import Contato from './Contato'
 import Empresa from './Empresa'
-import LinkList from './LinkList'
+import Navbar from '../components/layout/Navbar'
 
 export default function RoutesApp(){
     return(
 
         < BrowserRouter>
-          < LinkList />
+          < Navbar />
           < Routes  >
 
             < Route exact path={"/"} element={<Home />} />

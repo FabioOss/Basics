@@ -1,15 +1,16 @@
 body {
   padding: 50px;
-  background-color:white;
-  padding-bottom: 500px;
 }
 
-h1{
-  color:black
-  
+h1 {
+  color: black;
+  margin: 1em;
 }
 
-p{
-  background-color: red;
+p {
+  color: black;
+  background-color: grey;
   padding: 10px;
 }
+
+
